@@ -37,7 +37,7 @@ def find_closest_question(user_query, vectorizer, question_vectors, df):
   else:
     return None
 
-st.title(Svecw College Chatbot")
+st.title("Svecw College Chatbot")
 st.write("Welcome to the College Chatbot! Ask me anything about the college.")
 
 for message in st.session_state.messages:
